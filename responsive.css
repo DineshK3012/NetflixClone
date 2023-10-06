@@ -1,0 +1,257 @@
+@media (min-width: 547px) {
+  .navbar {
+    padding: 3% 4%;
+    /* border: 3px solid pink;  */
+  }
+
+  .navbar-brand {
+    width: 110px;
+  }
+
+  .nav-items {
+    gap: 25px;
+  }
+
+  .signin-btn {
+    font-size: 16px;
+  }
+
+  .dd-container {
+    padding: 8px 6px;
+  }
+
+  .hero-bg-container {
+    height: 125vh;
+  }
+
+  .hero-bg-overlay {
+    height: 125vh;
+  }
+
+  .hero-card {
+    top: 50%;
+    left: 38%;
+    transform: translate(-30%, -20%);
+  }
+
+  .hero-title {
+    font-weight: 600;
+    font-size: 2.6rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .hero-desc {
+    font-size: 1.1rem;
+  }
+
+  .feature {
+    padding: 4rem 2.2rem;
+  }
+
+  .feature2-poster-Container {
+    height: 90px;
+    width: 70%;
+    gap: 1px;
+  }
+
+  .feature-title {
+    font-size: 38px;
+  }
+
+  .feature-subtitle {
+    font-size: 20px;
+  }
+
+  .FAQ-heading {
+    font-size: 38px;
+    font-weight: 600;
+  }
+
+  .FAQ-title {
+    font-size: 20px;
+    padding: 1rem 1.2rem;
+  }
+
+  .FAQ-visible p {
+    font-size: 18px;
+    margin: 1rem 0.4rem;
+  }
+
+  .FAQ-list {
+    padding: 0rem 4.5rem;
+  }
+
+  footer {
+    padding: 3rem 4rem;
+  }
+
+  .footer-row2 div {
+    margin: 0.5rem 2px;
+    width: 32%;
+  }
+}
+
+@media (min-width: 947px) {
+  .navbar {
+    padding: 18px 50px;
+  }
+
+  .navbar-brand {
+    width: 142px;
+  }
+
+  .nav-items {
+    gap: 30px;
+  }
+
+  .signin-btn {
+    font-size: 16px;
+  }
+
+  .dd-container {
+    padding: 8px 6px;
+  }
+
+  .hero-bg-container {
+    height: 125vh;
+  }
+
+  .hero-bg-overlay {
+    height: 125vh;
+  }
+
+  .hero-card {
+    top: 52%;
+    left: 38%;
+    transform: translate(-30%, -20%);
+  }
+
+  .hero-title {
+    font-weight: 600;
+    font-size: 2.8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .hero-desc {
+    margin: 0px 0px;
+    font-size: 1.1rem;
+  }
+
+  .email-form {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .form-container {
+    width: 60%;
+    height: 60px;
+  }
+
+  .primary-btn {
+    margin-top: 0px;
+    padding: 0.9rem 1.6rem;
+    font-size: 28px;
+  }
+
+  .feature {
+    padding: 2.8rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .feature-details {
+    text-align: left;
+  }
+
+  .feature-title {
+    font-size: 48px;
+  }
+
+  .feature-subtitle {
+    font-size: 23px;
+  }
+
+  .feature-image-container {
+    max-width: 46%;
+  }
+
+  .feature:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .feature2-poster-Container {
+    bottom: 4%;
+    height: 100px;
+    width: 75%;
+    border-radius: 12px;
+    gap: 2px;
+  }
+
+  .poster-details h4 {
+    font-size: 15px;
+  }
+
+  .poster-details h6 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .featureRev {
+    margin-right: 10%;
+  }
+
+  .FAQ-heading {
+    font-size: 46px;
+    /* font-weight: 600; */
+    margin: 2rem;
+  }
+
+  .FAQ-title {
+    font-size: 26px;
+    padding: 1.4rem 1.6rem;
+  }
+
+  .FAQ-visible p {
+    font-size: 24px;
+    margin: 1.5rem 0.8rem;
+  }
+
+  .FAQ-list {
+    padding: 0rem 16%;
+  }
+
+  .FAQ-email-getStarted {
+    width: 75%;
+  }
+
+  footer {
+    font-size: 13px;
+    padding: 4% 14%;
+  }
+
+  .footer-row1 h4 {
+    font-size: 16px;
+  }
+
+  .footer-row2 div {
+    margin: 0.5rem 0;
+    margin-right: 4px;
+    /* border: 2px solid white; */
+    width: 22%;
+  }
+
+  .footer-row3 {
+    margin: 1.6rem 0rem;
+  }
+
+  .footer-row4 {
+    font-size: 14px;
+  }
+}

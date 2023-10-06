@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4% 4%;
+  z-index: 1;
+  /* border: 2px solid green; */
+}
+
+.navbar-brand {
+  height: 100%;
+  width: 94px;
+}
+
+.brand-logo {
+  width: 100%;
+  height: 100%;
+}
+
+.langDD {
+  color: white;
+  background: transparent;
+  border: none;
+}
+
+.langDD:focus {
+  outline: none;
+}
+
+.dd-container {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 4px 6px;
+  font-size: 14px;
+}
+
+.signin-btn {
+  background-color: red;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.nav-items {
+  display: flex;
+  gap: 15px;
+}
+
+.hero-bg-container {
+  width: 100%;
+  height: 95vh;
+  /* border: 2px solid white; */
+}
+
+.hero-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-card {
+  position: absolute;
+  top: 30%;
+  left: 8%;
+  transform: translate(-5%, -5%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-bg-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 95vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.hero-subtitle {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.hero-desc {
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin: 0px 35px;
+}
+
+.email-input {
+  padding: 0px 10px;
+  border: none;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  /* outline: none; */
+}
+
+.email-input:focus + .email-label {
+  top: 0.1rem;
+  font-size: 13px;
+  transition: 0.2s;
+}
+
+.email-input:not(:placeholder-shown).email-input:not(:focus) + .email-label {
+  top: 0.1rem;
+  font-size: 13px;
+}
+
+.email-input:focus-visible {
+  outline: none;
+}
+
+.email-label {
+  top: 28%;
+  left: 2%;
+  position: absolute;
+  color: rgb(153, 149, 149);
+}
+
+.email-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  width: 92%;
+  height: 50px;
+  background-color: white;
+  border-radius: 2px;
+  position: relative;
+}
+
+.primary-btn {
+  background-color: red;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  padding: 0.7rem 1.1rem;
+  font-size: 16px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.feature {
+  border-top: 8px solid #222;
+  padding: 2.5rem 1rem;
+}
+
+.feature-details {
+  text-align: center;
+}
+
+.feature-title {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 2% 0%;
+}
+
+.feature-subtitle {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.feature-image-container {
+  width: 95%;
+  position: relative;
+  left: 3%;
+}
+
+.feature-img {
+  width: 100%;
+}
+
+.feature-vid-container {
+  position: absolute;
+  top: 20%;
+  left: 13%;
+  width: 100%;
+  height: 100%;
+  max-width: 73%;
+  max-height: 54%;
+  z-index: -2;
+}
+
+.feature-vid {
+  width: 100%;
+}
+
+.feature2-poster-Container {
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translate(-50%);
+  max-width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  border: 2.5px solid rgb(61, 59, 59);
+  border-radius: 15px;
+
+  width: 100%;
+  height: 70px;
+  padding: 0.4rem;
+}
+
+.poster-container {
+  max-width: 30%;
+  height: 100%;
+}
+
+.poster {
+  /* width: 100%; */
+  height: 100%;
+}
+
+.poster-details {
+  width: 50%;
+}
+
+.poster-details h4 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.poster-details h6 {
+  font-size: 11px;
+  font-weight: 500;
+  color: blue;
+}
+
+.download-gif {
+  width: 20%;
+}
+
+.gif {
+  width: 80%;
+}
+
+.feature3-vid-container {
+  top: 10%;
+  left: 17%;
+  max-width: 64%;
+  max-height: 54%;
+}
+
+.FAQ-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 8px solid #222;
+  padding: 2rem 0;
+}
+
+.FAQ-heading {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin: 1rem 2rem;
+}
+
+.FAQ-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.FAQ-accordian {
+  width: 100%;
+}
+
+.FAQ-title {
+  font-size: 18px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem 1rem;
+  background-color: #303030;
+  color: white;
+  border: 1px solid #303030;
+}
+
+.FAQ-visible {
+  background-color: #303030;
+  color: white;
+  border-top: 1px solid black;
+  padding: 0rem 1rem;
+  max-height: 0;
+  overflow: hidden;
+
+  transition: max-height 0.4s ease-in-out;
+}
+
+.FAQ-visible p {
+  margin: 1rem 0rem;
+}
+
+.FAQ-email-getStarted {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  margin: 2rem 0rem;
+}
+
+.FAQ-email-getStarted h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0rem 1.6rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  border-top: 8px solid #333;
+  padding: 2rem 2rem;
+  color: #6d7575;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.footer-row1 h4 {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 1rem 0rem;
+}
+
+.footer-row1 h4 a {
+  text-decoration: none;
+  color: #6d7575;
+}
+
+.footer-row1 h4 a:hover {
+  text-decoration: underline;
+}
+
+.footer-row2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-row2 div {
+  margin: 0.5rem 2px;
+  /* border: 2px solid white; */
+  width: 46%;
+}
+
+.footer-row2 div a {
+  text-decoration: none;
+  color: #6d7575;
+}
+
+.footer-row2 div a:hover {
+  text-decoration: underline;
+}
+
+.footer-row3 {
+  margin: 1.2rem 0rem;
+}
+
+.footer-row3 .dd-container {
+  width: fit-content;
+  border: 0.5px solid #6d7575;
+  padding: 10px;
+}
+
+.footer-row3 .dd-container .langDD {
+  color: #999999;
+  font-size: 16px;
+}
+
+.footer-row3 .dd-container option {
+  margin: 10px;
+}
